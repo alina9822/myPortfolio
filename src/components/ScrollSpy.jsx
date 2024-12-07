@@ -19,9 +19,9 @@ const ScrollSpy = () => {
 
           // Highlight active link
           navLinks.forEach((link) => {
-            link.classList.remove("text-blue-500", "font-bold");
+            link.classList.remove("text-stone-500", "font-bold", "underline");
             if (link.getAttribute("href") === `#${sectionId}`) {
-              link.classList.add("text-blue-500", "font-bold");
+              link.classList.add("text-stone-500", "font-bold","underline");
             }
           });
         }

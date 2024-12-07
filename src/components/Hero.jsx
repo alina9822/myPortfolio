@@ -1,5 +1,5 @@
 import React from "react";
-
+import TypingText from "./TypingText";
 
 
 function Hero() {
@@ -8,19 +8,25 @@ function Hero() {
       <div className="h-full md:mt-0 w-full  ">
         <div className="flex flex-col border items-center lg:flex-row-reverse bg-heroBg ">
           <img
-            className="w-[250px] sm:w-[400px] md:w-[450px] lg:w-[500px] xl:h-screen xl:w-fit shadow-3xl"
+            className="mt-14 md:mt-0 w-[250px] sm:w-[350px] md:w-[450px] lg:w-[500px] xl:h-screen xl:w-fit shadow-3xl"
             src="/myPortfolio/assets/images/profile.jpg"
           ></img>
 
           <div className="h-full flex items-center basis-1/2 text-center lg:text-left px-7 md:pl-14 md:pr-20  ">
             <div className="flex flex-col gap-y-3 md:gap-y-5">
-              <div className="font-mono mb-2 text-sm md:text-md">
+              <div className="font-mono mb-2 ">
                 &nbsp;&nbsp; Welcome to my portfolio website!
               </div>
               <div className="text-5xl lg:text-6xl font-bold  font-kalam">
-                Hello I'm <br></br> <span className="">Alina Zaman</span>
+                Hello I'm <br></br>
+                <TypingText
+                  text="Alina Zaman"
+                  speed={100}
+                  eraseSpeed={50}
+                  delay={1500}
+                />
               </div>
-              <div className="text-sm md:text-md font-mono">
+              <div className="font-mono text-gray-500">
                 It was fun building this portfolio from scratch using React and
                 Tailwind CSS. I hope this website provides you with an overview
                 of my qualifications, skills, and the projects I completed
