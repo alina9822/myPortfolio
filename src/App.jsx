@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import "@fontsource/outfit"
-import "@fontsource/roboto"
+import "@fontsource/outfit";
+import "@fontsource/roboto";
+import "@fontsource/kalam";
 
 import MainLayout from './layout/MainLayout'
 import ScrollSpy from './components/ScrollSpy';
