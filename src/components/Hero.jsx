@@ -9,7 +9,7 @@ function Hero() {
         <div className="flex flex-col border items-center lg:flex-row-reverse bg-heroBg ">
           <img
             className="w-[250px] sm:w-[400px] md:w-[450px] lg:w-[500px] xl:h-screen xl:w-fit shadow-3xl"
-            src="src/assets/images/profile.jpg"
+            src="/myPortfolio/assets/images/profile.jpg"
           ></img>
 
           <div className="h-full flex items-center basis-1/2 text-center lg:text-left px-7 md:pl-14 md:pr-20  ">
