@@ -26,6 +26,7 @@
 
 .blinking-cursor::after {
   content: "|";
+  font-family: 'Courier New', Courier, monospace;
   animation: blink 1s steps(2, start) infinite;
 }
 

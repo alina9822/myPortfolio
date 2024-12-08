@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         heroBg: "#fdf9f1",
+        aboutBG: "#4E5745",
       },
       fontFamily: {
         roboto: ["Roboto", "Outfit"], // Set as default sans-serif

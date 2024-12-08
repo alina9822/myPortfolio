@@ -19,6 +19,7 @@ function Hero() {
               </div>
               <div className="text-5xl lg:text-6xl font-bold  font-kalam">
                 Hello I'm <br></br>
+                
                 <TypingText
                   text="Alina Zaman"
                   speed={100}

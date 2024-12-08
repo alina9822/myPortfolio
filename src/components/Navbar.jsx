@@ -2,10 +2,13 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="bg-white bg-opacity-70 px-10 min-h-16 w-full font-semibold flex flex-col text-xs gap-5 lg:text-base md:flex-row justify-between items-center fixed top-0 left-0 ">
+    <div className="bg-white bg-opacity-75 shadow-md px-7 min-h-16 w-full font-semibold flex flex-col text-xs gap-5 lg:text-base md:flex-row justify-between items-center fixed top-0 left-0 ">
       <div className="pt-3 md:pt-0">mode</div>
       <div className="flex gap-10 md:gap-14">
-        <a href="#about" className="nav-link text-gray-700 hover:text-stone-400">
+        <a
+          href="#about"
+          className="nav-link text-gray-700 hover:text-stone-400"
+        >
           About me
         </a>
         <a
@@ -33,7 +36,20 @@ function Navbar() {
           Contact
         </a>
       </div>
-      <div className="pb-3 md:pb-0">profiles</div>
+      <div className="pb-3 md:pb-0 flex gap-3">
+        <a href="https://github.com/alina9822">
+          <img
+            className="w-7"
+            src="/myPortfolio/assets/images/github-logo.png"
+          ></img>
+        </a>
+        <a href="https://www.linkedin.com/in/alina-zaman-96ba492a6/">
+          <img
+            className="w-7"
+            src="/myPortfolio/assets/images/linkedin.png"
+          ></img>
+        </a>
+      </div>
     </div>
   );
 }

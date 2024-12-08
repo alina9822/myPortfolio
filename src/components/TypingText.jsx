@@ -38,7 +38,7 @@ const TypingText = ({
     return () => clearTimeout(typingTimer); // Cleanup on component unmount or update
   }, [isTyping, currentIndex, text, typingSpeed, eraseSpeed, delay]);
 
-  return <span className="">{displayedText}</span>;
+  return <span className="blinking-cursor">{displayedText}</span>;
 };
 
 export default TypingText;
