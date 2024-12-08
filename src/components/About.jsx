@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="h-screen flex justify-center items-center bg-aboutBG"
     >
-      <div className="h-full mt-52 md:mt-0 pt-10  w-full flex flex-col">
+      <div className="h-full  pt-10  w-full flex flex-col">
         <div>
           <img
             src="/myPortfolio/assets/images/eating.png"

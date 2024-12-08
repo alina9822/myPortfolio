@@ -2,8 +2,18 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section id="contact" className="h-screen flex justify-center items-center">
-      <div className="h-full mt-52 md:mt-0 md:h-5/6 w-full border-2"></div>
+    <section
+      id="contact"
+      className="h-screen flex justify-center items-center bg-aboutBG" border
+    >
+      <div className="h-full mt-52 md:mt-0 pt-10  w-full flex flex-col">
+        <div>
+         
+          <h1 className="text-4xl font-bold text-center text-heroBg font-kalam mt-5">
+            Contact Me
+          </h1>
+        </div>
+      </div>
     </section>
   );
 }

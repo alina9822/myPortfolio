@@ -6,9 +6,9 @@ function Hero() {
   return (
     <section className="h-screen">
       <div className="h-full md:mt-0 w-full  ">
-        <div className="flex flex-col border items-center lg:flex-row-reverse bg-heroBg ">
+        <div className="flex flex-col items-center lg:flex-row-reverse bg-heroBg ">
           <img
-            className="mt-14 md:mt-0 w-[250px] sm:w-[350px] md:w-[450px] lg:w-[500px] xl:h-screen xl:w-fit shadow-3xl"
+            className="mt-14 md:mt-0 w-[250px] sm:w-[350px] md:w-[400px] lg:w-[500px] xl:h-screen xl:w-fit "
             src="/myPortfolio/assets/images/profile.jpg"
           ></img>
 

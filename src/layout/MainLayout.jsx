@@ -12,7 +12,7 @@ import Hero from '../components/Hero'
 function MainLayout() {
     
   return (
-    <div>
+    <div className='bg-heroBg'>
       <Navbar />
       <Hero/>
       <About />
