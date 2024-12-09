@@ -8,8 +8,8 @@ function Hero() {
       <div className="h-full md:mt-0 w-full  ">
         <div className="flex flex-col items-center lg:flex-row-reverse bg-heroBg ">
           <img
-            className="mt-14 md:mt-0 w-[250px] sm:w-[350px] md:w-[400px] lg:w-[500px] xl:h-screen xl:w-fit "
-            src="/myPortfolio/assets/images/profile.jpg"
+            className="mt-14 md:mt-0 w-[250px] sm:w-[350px] md:w-[400px] lg:w-[500px] xl:w-fit xl:h-screen"
+            src="/myPortfolio/assets/images/profile2.jpg"
           ></img>
 
           <div className="h-full flex items-center basis-1/2 text-center lg:text-left px-7 md:pl-14 md:pr-20  ">

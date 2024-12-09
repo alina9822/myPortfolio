@@ -36,7 +36,7 @@ function Navbar() {
           Contact
         </a>
       </div>
-      <div className="pb-3 md:pb-0 flex gap-3">
+      <div className="pb-3 md:pb-0 flex gap-4">
         <a href="https://github.com/alina9822">
           <img
             className="w-7"
@@ -47,6 +47,12 @@ function Navbar() {
           <img
             className="w-7"
             src="/myPortfolio/assets/images/linkedin.png"
+          ></img>
+        </a>
+        <a href="mailto:zmalina98@gmail.com">
+          <img
+            className="w-7"
+            src="/myPortfolio/assets/images/communication.png"
           ></img>
         </a>
       </div>
