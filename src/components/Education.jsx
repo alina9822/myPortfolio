@@ -7,9 +7,9 @@ const Education = () => {
       className="h-screen flex justify-center items-center bg-heroBg "
     >
       <div className="h-full w-full flex justify-end items-center flex-col-reverse lg:flex-row ">
-        <div className="w-5/6 flex items-center justify-center">
-          <ul className="w-5/6 list-none md:ml-24 ml-10">
-            <li >
+        <div className="w-5/6 flex items-center justify-center ">
+          <ul className="w-5/6 list-none ">
+            <li>
               <div className="flex flex-row ">
                 <div className="items-center flex flex-col justify-around">
                   <div className="bg-black  rounded-full h-4 w-4 flex "></div>
@@ -43,7 +43,7 @@ const Education = () => {
                 </div>
               </div>
             </li>
-            <li >
+            <li>
               <div className="flex flex-row">
                 <div className="items-center flex flex-col justify-around">
                   <div className="bg-black  rounded-full h-4 w-4 flex "></div>
@@ -73,7 +73,7 @@ const Education = () => {
                 </div>
               </div>
             </li>
-            <li >
+            <li>
               <div className="flex flex-row">
                 <div className="items-center flex flex-col justify-around">
                   <div className="bg-black  rounded-full h-4 w-4 flex "></div>
@@ -105,11 +105,11 @@ const Education = () => {
             </li>
           </ul>
         </div>
-        <div className="md:basis-1/2 flex justify-center items-center">
+        <div className="md:basis-1/2  flex justify-center items-center   shadow-2xl h-screen ">
           <div>
             <img
               src="/myPortfolio/assets/images/graduation-hat.png"
-              className="h-32 md:h-60 mx-auto"
+              className="h-32 md:h-60 mx-auto "
             />
             <h1 className="text-4xl font-bold text-center font-kalam ">
               Education{" "}

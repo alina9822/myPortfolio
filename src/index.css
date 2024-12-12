@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
   body {
     @apply scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200;
   }
@@ -21,6 +29,10 @@
 
   ::-webkit-scrollbar-button {
     display: none;
+  }
+   .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) rgba(255, 255, 255, 0.5);
   }
 }
 

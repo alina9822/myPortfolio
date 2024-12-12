@@ -19,7 +19,7 @@ function MainLayout() {
       <Education />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

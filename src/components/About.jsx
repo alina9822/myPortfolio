@@ -4,10 +4,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-screen flex justify-center items-center bg-aboutBG"
+      className="h-screen flex justify-center items-center bg-gradient-to-br from-[#4E5745] to-[#6C7461]"
     >
       <div className="h-full pt-10 w-full flex flex-col items-center text-justify">
-        <div className='md:mb-12'>
+        <div className="md:mb-12">
           <img
             src="/myPortfolio/assets/images/eating.png"
             className="h-40 mx-auto"
@@ -17,8 +17,8 @@ const About = () => {
             About Me
           </h1>
         </div>
-        <div className='w-2/3'>
-          <p className='font-mono text-heroBg text-xl'>
+        <div className="w-5/6">
+          <p className="text-heroBg t">
             I’m a final-year undergraduate student passionate about technology,
             innovation, and continuous learning. With hands-on experience in
             developing creative solutions, I love transforming ideas into

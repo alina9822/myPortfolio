@@ -6,6 +6,7 @@ export default {
       colors: {
         heroBg: "#fdf9f1",
         aboutBG: "#4E5745",
+        bannerBG: "#D0C09E",
       },
       fontFamily: {
         roboto: ["Roboto", "Outfit"], // Set as default sans-serif
