@@ -6,7 +6,7 @@ const Education = () => {
       id="education"
       className="h-screen flex justify-center items-center bg-heroBg "
     >
-      <div className="h-full w-full flex justify-end items-center flex-col-reverse lg:flex-row ">
+      <div className="h-full w-full flex justify-end items-center flex-col-reverse lg:flex-row-reverse ">
         <div className="w-5/6 flex items-center justify-center ">
           <ul className="w-5/6 list-none ">
             <li>

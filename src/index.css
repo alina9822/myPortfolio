@@ -50,3 +50,10 @@
 
 
 
+html, body {
+  overflow: hidden; /* Disable scrolling */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
