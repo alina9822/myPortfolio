@@ -30,7 +30,7 @@ function Hero() {
               <div className="font-mono text-gray-500">
                 It was fun building this portfolio from scratch using React and
                 Tailwind CSS. I hope this website provides you with an overview
-                of my qualifications, skills, and the projects I completed
+                of my qualifications, skills, and the projects I worked on
                 during my undergrad.
               </div>
               <div className="md:mt-3 ml-1">
