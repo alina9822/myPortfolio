@@ -17,6 +17,7 @@ function App() {
       <ScrollSpy />
       <Routes>
         <Route path="/myPortfolio/" element={<MainLayout />} />
+        <Route paht="/myPortfolio/projects/:id" />
       </Routes>
     </Router>
   );

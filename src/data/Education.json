@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "school": "Bangladesh University of Engineering and Technology",
+        "degree": "B.Sc. in Computer Science and Engineering",
+        "graduation": "2020 - 2025",
+        "grade": "CGPA: 3.47/4.00",
+        "highlight" : [
+            {
+                "title": "Notable Courses",
+                "list": [
+                    "CSE 307 - Software Engineering",
+                    "CSE 321 - Computer Networks",
+                    "CSE 405 - Computer Security",
+                    "CSE 463 - Introduction to Bioinformatics",
+                    "CSE 421 - Graph Theory"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "school": "SHAHEED BIR UTTAM LT ANWAR GIRLS’ COLLEGE",
+        "degree": "Higher Secondary Certificate (HSC)",
+        "graduation": "2017 - 2019",
+        "grade": "GPA: 5.00/5.00",
+        "highlight" : [
+        ]
+    },
+    {
+        "id": "3",
+        "school": "Agargaon Taltola Govt. Colony High School and College",
+        "degree": "Secondary School Certificate (SSC)",
+        "graduation": "2015 - 2017",
+        "grade": "GPA: 5.00/5.00",
+        "highlight" : [
+        ]
+    }
+]

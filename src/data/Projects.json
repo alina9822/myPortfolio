@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "name": "Catch the Egg",
+        "description": "It’s a simple yet fun IGraphics game where players use a basket to catch falling eggs. Each egg type either adds or deducts points. There are others things like bombs, large basket, and extra time that can help or hurt the player. C filesystem is used to store the game state and score.",
+        "image": "/myPortfolio/assets/images/eggCatch.png",
+        "link": "https://github.com/alina9822/Catch-the-Egg",
+        "stack": ["C"]
+    },
+    {
+        "id": "2",
+        "name": "FootBall Manager",
+        "description": "A Football Management app built with Java and FXML, utilizing advanced features like networking and threading. It manages player databases with powerful search, filter, buy, and sell options, delivering a seamless and interactive user experience.",
+        "image": "/myPortfolio/assets/images/footballManager.png",
+        "link": "https://github.com/alina9822/Football-Manager",
+        "stack": ["Java", "Java fxml"]
+    },
+    {
+        "id": "3",
+        "name": "Lab Inventory Management",
+        "description": " Our final year project automates CSE lab management through a role-based system, streamlining equipment borrowing, clearance, dues tracking, and stock management, enhancing efficiency and reducing manual effort.",
+        "image": "/myPortfolio/assets/images/labInventory.png",
+        "link": "https://github.com/alina9822/Lab-Inventory-Frontend",
+        "stack": ["Node.js", "React.js", "PostgreSQL"]
+    },
+    {
+      "id": "4",
+      "name": "Thoughts",
+      "description": "I built this website to support individuals in tough times, connecting them with Bengali-speaking therapists and offering a safe space to share struggles. Featuring a LLaMA 3.2 chatbot, it’s a work in progress where I’ve gained experience with Spring Boot, React, Ollama, and Socket.",
+      "image": "/myPortfolio/assets/images/thoughts.png",
+      "link": "https://github.com/alina9822/Thoughts-Frontend",
+      "stack": ["Spring Boot", "React.js", "PostgreSQL"]
+    }
+
+]

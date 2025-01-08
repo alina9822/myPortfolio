@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillsList from "../data/Skills.json";
 
 const Skills = () => {
   return (
@@ -18,170 +19,21 @@ const Skills = () => {
         </div>
         <div className="w-5/6  flex justify-center items-center">
           <div className="flex flex-col gap-12">
-            <div className="flex flex-col gap-4 border-b-2 border-b-gray-500">
-              <span className="font-roboto text-xl">Languages</span>
-              <div className="flex flex-wrap gap-4 mb-4">
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/C.svg"
-                  ></img>
-                  <span>C</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/C++.svg"
-                  ></img>
-                  <span>C++</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/java.svg"
-                  ></img>
-                  <span>Java</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/python.svg"
-                  ></img>
-                  <span>Python</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/javascript.svg"
-                  ></img>
-                  <span>Java Script</span>
+           
+            {SkillsList.map((skill) => (
+              <div className="flex flex-col gap-4 border-b-2 border-b-gray-500">
+                <span className="font-roboto text-xl">{skill.type}</span>
+                <div className="flex flex-wrap gap-4 mb-4 text-sm">
+                  {skill.list.map((tech) => (
+                    <div className="flex flex-col gap-2 justify-center items-center">
+                      <img className="h-12" src={tech.image}></img>
+                      <span>{tech.name}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
-            </div>
+            ))}
 
-            <div className="flex flex-col gap-4 border-b-2 border-b-gray-500">
-              <span className="font-roboto text-xl ">Technologies</span>
-              <div className="flex flex-wrap gap-4 mb-4 text-sm">
-                <div className="flex flex-col gap-2 justify-center items-center">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/react.svg"
-                  ></img>
-                  <span>React</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/node-js.svg"
-                  ></img>
-                  <span>Nodejs</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/spring.svg"
-                  ></img>
-                  <span>Spring Boot</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/oracle.svg"
-                  ></img>
-                  <span>Oracle DB</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/postgresql.svg"
-                  ></img>
-                  <span>Postgre SQL</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center font-mono">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/tailwind-css.svg"
-                  ></img>
-                  <span>Tailwind CSS</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center font-mono">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/git.svg"
-                  ></img>
-                  <span>Git</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center font-mono">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/linux.svg"
-                  ></img>
-                  <span>Linux</span>
-                </div>
-                <div className="flex flex-col gap-2 justify-center items-center font-mono">
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/bash.svg"
-                  ></img>
-                  <span>Bash</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col gap-4 border-b-2 border-b-gray-500">
-              <span className="font-roboto text-xl">Libraries</span>
-              <div className="flex flex-wrap gap-4 mb-4">
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/scikit-learn.png"
-                  ></img>
-                  <span>Scikit Learn</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/keras.jpeg"
-                  ></img>
-                  <span>Keras</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/pytorch.svg"
-                  ></img>
-                  <span>Pytorch</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/numpy.svg"
-                  ></img>
-                  <span>Numpy</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/pandas.png"
-                  ></img>
-                  <span>Pandas</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/matplotlib.png"
-                  ></img>
-                  <span>Matplotlib</span>
-                </div>
-                <div>
-                  <img
-                    className="h-12"
-                    src="/myPortfolio/assets/images/seaborn.png"
-                  ></img>
-                  <span>Seaborn</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "type": "Languages",
+        "list": [
+            {
+                "name": "C",
+                "image": "/myPortfolio/assets/images/C.svg"
+            },
+            {
+                "name": "C++",
+                "image": "/myPortfolio/assets/images/C++.svg"
+            },
+            {
+                "name": "Java",
+                "image": "/myPortfolio/assets/images/java.svg"
+            },
+            {
+                "name": "Python",
+                "image": "/myPortfolio/assets/images/python.svg"
+            },
+            {
+                "name": "JavaScript",
+                "image": "/myPortfolio/assets/images/javascript.svg"
+            },
+            {
+                "name": "SQL",
+                "image": "/myPortfolio/assets/images/sql.svg"
+            },
+            {
+                "name": "HTML",
+                "image": "/myPortfolio/assets/images/html.svg"
+            },
+            {
+                "name": "CSS",
+                "image": "/myPortfolio/assets/images/css.svg"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "type": "Technologies",
+        "list": [
+            {
+                "name": "React.js",
+                "image": "/myPortfolio/assets/images/react.svg"
+            },
+            {
+                "name": "Node.js",
+                "image": "/myPortfolio/assets/images/node-js.svg"
+            },
+            {
+                "name": "Spring Boot",
+                "image": "/myPortfolio/assets/images/spring.svg"
+            },
+            {
+                "name": "Oracle DB",
+                "image": "/myPortfolio/assets/images/oracle.svg"
+            },
+            {
+                "name": "PostgreSQL",
+                "image": "/myPortfolio/assets/images/postgresql.svg"
+            },
+            {
+                "name": "Tailwind CSS",
+                "image": "/myPortfolio/assets/images/tailwind-css.svg"
+            },
+            {
+                "name": "Git",
+                "image": "/myPortfolio/assets/images/git.svg"
+            },
+            {
+                "name": "Linux",
+                "image": "/myPortfolio/assets/images/linux.svg"
+            },
+            {
+                "name": "Bash",
+                "image": "/myPortfolio/assets/images/bash.svg"	
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "type": "Libraries",
+        "list": [
+           {
+                "name": "Scikit-learn",
+                "image": "/myPortfolio/assets/images/scikit-learn.png"
+              },
+              {
+                "name": "Pytorch",
+                "image": "/myPortfolio/assets/images/pytorch.svg"
+              },
+              {
+                "name": "Tensorflow",
+                "image": "/myPortfolio/assets/images/tensorflow.svg"
+              },
+              {
+                "name": "Keras",
+                "image": "/myPortfolio/assets/images/keras.jpeg"
+              },
+              {
+                "name": "Pandas",
+                "image": "/myPortfolio/assets/images/pandas.png"
+              },
+              {
+                "name": "Numpy",
+                "image": "/myPortfolio/assets/images/numpy.svg"
+              },
+              {
+                "name": "Matplotlib",
+                "image": "/myPortfolio/assets/images/matplotlib.png"
+              },
+              {
+                "name": "Seaborn",
+                "image": "/myPortfolio/assets/images/seaborn.png"
+           }
+        ]
+    }
+  
+
+]
