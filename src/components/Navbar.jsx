@@ -29,12 +29,12 @@ function Navbar() {
         >
           Projects
         </a>
-        <a
+        {/* <a
           href="#contact"
           className="nav-link text-gray-700 hover:text-stone-400"
         >
           Research
-        </a>
+        </a> */}
       </div>
       <div className="pb-3 md:pb-0 flex gap-4">
         <a href="https://github.com/alina9822">
