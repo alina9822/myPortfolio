@@ -9,13 +9,13 @@ function Projects() {
       id="projects"
       className="h-screen  flex flex-col justify-center items-center bg-heroBg  "
     >
-      <div className="h-full w-full pt-10 my-5 flex   justify-between items-center  ">
-        <div className="basis-1/2 flex flex-col gap-4 justify-center items-center  shadow-2xl h-full">
+      <div className="h-full w-full pt-10 my-5 flex md:flex-row flex-col  justify-between items-center  ">
+        <div className="md:basis-1/2 flex flex-col gap-4 justify-center items-center  shadow-2xl md:h-full">
           <img
             src="/myPortfolio/assets/images/coding.png"
-            className="h-32 md:h-48  "
+            className="h-32 md:h-48 hidden md:block"
           />
-          <h1 className="text-4xl font-bold  text-center font-kalam">
+          <h1 className="text-3xl md:text-4xl font-bold  text-center font-kalam pt-5">
             My Projects
           </h1>
         </div>

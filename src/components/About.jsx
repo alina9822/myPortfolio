@@ -12,15 +12,15 @@ const About = () => {
         <div className="md:mb-8">
           <img
             src="/myPortfolio/assets/images/eating.png"
-            className="w-36 mx-auto"
+            className="w-36 mx-auto hidden md:block"
             alt="Alina Zaman"
           />
           <h1 className="text-3xl font-bold text-center text-heroBg font-kalam mt-5">
             About Me
           </h1>
         </div>
-        <div className="w-4/6">
-          <p className="text-heroBg t">
+        <div className="mx-8 md:mx-20 xl:mx-48">
+          <p className="text-heroBg lg:text-base  text-sm ">
             {about.map((about) => (
               <>
                 {about}
